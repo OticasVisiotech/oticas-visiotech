@@ -2325,6 +2325,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 1199.98px) {
   .banner-area {
     background-position: right top ;
+    padding: 20px ;
   }
 }
 
@@ -2347,13 +2348,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content {
-  margin-top: -250px;
+  margin-top: -200px;
   text-align: center;
   background: rgba(4, 30, 66, 0.3); /* fundo semi-transparente */
   backdrop-filter: blur(8px);     /* aplica o blur no que está atrás */
   -webkit-backdrop-filter: blur(8px); /* suporte para Safari */
   border-radius: 12px;            /* opcional, bordas arredondadas */
   padding: 20px;                  /* espaço interno */
+}
+
+@media (max-width: 875px) {
+  .banner-content {
+    margin-top: 200px;
+  }
 }
 
 .banner-content h1 {
@@ -2418,6 +2425,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 20px;                  /* espaço interno */
 }
 
+@media (max-width: 414px) {
+  .stats .stat-item {
+    margin-bottom: 20px;
+}
+}
+
 .stats .stat-item:hover {
   transform: scale(1.1);
   cursor: pointer;
@@ -2426,8 +2439,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .stat-number {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--accent, #AD841F); /* amarelo */
-  margin-bottom: 4px;
+  color: #AD841F;
+  margin-bottom: 5px;
 }
 
 .stat-text {
