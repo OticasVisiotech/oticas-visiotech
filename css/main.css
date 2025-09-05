@@ -2579,6 +2579,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 350px;
 }
 
+@media (max-width: 800px) {
+  .video-right {
+    margin-top: 100px;
+  }
+}
+
 .video-right .overlay-bg {
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -2586,65 +2592,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .video-right .play-btn {
   z-index: 2;
   cursor: pointer;
-}
-
-/* Modal tela cheia */
-#videoModal {
-  display: none;
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Quando abrir */
-#videoModal.show {
-  display: flex;
-}
-
-/* Overlay escuro com blur */
-#videoModal::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.85); /* escurece fundo */
-  backdrop-filter: blur(6px); /* aplica blur */
-  z-index: -1;
-}
-
-/* Vídeo ocupa a tela */
-#videoModal video {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 12px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-  z-index: 1;
-}
-
-/* Botão fechar */
-#videoModal .close-btn {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  border: none;
-  background: transparent;
-  font-size: 48px;
-  font-weight: bold;
-  color: #fff;
-  cursor: pointer;
-  z-index: 2;
-}
-
-#videoModal .close-btn:hover {
-  color: #38a4ff;
-  transition: 0.5s;
-}
-
-@media (max-width: 800px) {
-  .video-right {
-    margin-top: 100px;
-  }
 }
 
 #about {
