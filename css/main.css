@@ -2375,7 +2375,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-area {
   position: relative;
-  background: url(../img/header-bg-3.jpg) center;
+  background: url(../img/header-bg.jpg) center;
   background-size: cover;
   background-position: center top;
 }
@@ -2573,7 +2573,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .video-right {
-  background: url(../img/logo-fundo-azul.jpg) no-repeat center;
+  background: url(../img/logo-video-bg.jpg) no-repeat center;
   background-size: cover;
   background-position: center;
   height: 350px;
@@ -2881,7 +2881,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .faq-area {
-  background: url(../img/header-bg-5.jpg) center;
+  background: url(../img/faq-bg.jpg) center;
   background-size: cover;
   background-position: center top;
 }
