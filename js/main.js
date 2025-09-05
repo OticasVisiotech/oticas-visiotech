@@ -1,3 +1,44 @@
+// Scroll Smooth from button "Compre Agora"
+
+function smoothScroll(target, duration = 1000) {
+  const element = document.querySelector(target);
+  if (!element) return;
+
+  const targetPosition = element.getBoundingClientRect().top + window.scrollY;
+  const startPosition = window.scrollY;
+  const distance = targetPosition - startPosition;
+  let startTime = null;
+
+  function animation(currentTime) {
+    if (startTime === null) startTime = currentTime;
+    const timeElapsed = currentTime - startTime;
+    const run = ease(timeElapsed, startPosition, distance, duration);
+    window.scrollTo(0, run);
+    if (timeElapsed < duration) requestAnimationFrame(animation);
+  }
+
+  // Função de easing (easeInOutCubic para ficar bem suave)
+  function ease(t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return (c / 2) * t * t * t + b;
+    t -= 2;
+    return (c / 2) * (t * t * t + 2) + b;
+  }
+
+  requestAnimationFrame(animation);
+}
+
+// Aplica nos links de âncora
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    smoothScroll(this.getAttribute("href"), 1200); // 1200ms = 1.2s
+  });
+});
+
+
+
+// ----------------------------------------
 
 $(document).ready(function(){
 	"use strict";
