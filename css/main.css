@@ -2423,6 +2423,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-backdrop-filter: blur(8px); /* suporte para Safari */
   border-radius: 12px;            /* opcional, bordas arredondadas */
   padding: 20px;                  /* espaço interno */
+  margin-bottom: -50px;
 }
 
 @media (max-width: 414px) {
