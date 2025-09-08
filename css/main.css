@@ -2647,7 +2647,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .video-left {
     text-align: center;       /* Centraliza os textos */
     margin: 0 auto;           /* Garante centralização horizontal */
@@ -2661,7 +2661,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 991px) {
   .footer-social {
     order: 2; /* aparece logo depois do texto (video-left) */
     margin-top: 10px;
