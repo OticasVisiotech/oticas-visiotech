@@ -2496,7 +2496,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* Mobile: inverte a ordem */
-@media (max-width: 767px) {
+@media (max-width: 430px) {
   .banner-area .container {
     flex-direction: column;
   }
@@ -2514,7 +2514,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* Tablet pra cima mantém como está */
-@media (min-width: 768px) {
+@media (min-width: 431px) {
   .banner-area .container {
     flex-direction: column; 
   }
@@ -2646,6 +2646,38 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 2;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .video-left {
+    text-align: center;       /* Centraliza os textos */
+    margin: 0 auto;           /* Garante centralização horizontal */
+    padding-right: 15px;         /* Remove padding lateral que empurra no desktop */
+  }
+
+  .video-left img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;           /* Centraliza a logo */
+  }
+}
+
+@media (max-width: 830px) {
+  .footer-social {
+    order: 2; /* aparece logo depois do texto (video-left) */
+    margin-top: 10px;
+  }
+
+  .video-right {
+    order: 3; /* vem depois dos links sociais */
+    margin-top: 25px;
+  }
+
+  .video-left {
+    order: 1;
+  }
+}
+
+/* HOME ABOUT AREA */
 
 #about {
   background-color: #041e42;
