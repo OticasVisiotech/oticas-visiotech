@@ -2409,7 +2409,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content {
-  margin-top: -200px;
+  margin-top: 200px;
   text-align: center;
   background: rgba(4, 30, 66, 0.3); /* fundo semi-transparente */
   backdrop-filter: blur(8px); /* aplica o blur no que está atrás */
@@ -2475,6 +2475,59 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none;
   }
 }
+
+/* Estrutura flex no container */
+.banner-area .container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* A imagem e o conteúdo ficam organizados */
+.banner-area img {
+  order: 1; /* default: aparece antes do conteúdo */
+  max-width: 350px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+
+.banner-area .row {
+  order: 2;
+}
+
+/* Mobile: inverte a ordem */
+@media (max-width: 767px) {
+  .banner-area .container {
+    flex-direction: column;
+  }
+
+  .banner-area img {
+    order: 2; /* agora a imagem aparece embaixo */
+     /* centralizar e dar espaçamento */
+    margin-top: -180px;
+  }
+
+  .banner-area .row {
+    order: 1;
+    margin-top: 20px !important; /* ajusta o espaço */
+  }
+}
+
+/* Tablet pra cima mantém como está */
+@media (min-width: 768px) {
+  .banner-area .container {
+    flex-direction: column; 
+  }
+
+  .banner-area img {
+    order: 1;
+  }
+
+  .banner-area .row {
+    order: 2;
+  }
+}
+
 
 /* Estatísticas */
 .stats .stat-item {
