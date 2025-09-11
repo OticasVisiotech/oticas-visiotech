@@ -2503,7 +2503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   .banner-area img {
     order: 2; /* agora a imagem aparece embaixo */
-     /* centralizar e dar espaçamento */
+    /* centralizar e dar espaçamento */
     margin-top: -180px;
   }
 
@@ -2516,7 +2516,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Tablet pra cima mantém como está */
 @media (min-width: 431px) {
   .banner-area .container {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .banner-area img {
@@ -2527,7 +2527,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     order: 2;
   }
 }
-
 
 /* Estatísticas */
 .stats .stat-item {
@@ -2649,15 +2648,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 830px) {
   .video-left {
-    text-align: center;       /* Centraliza os textos */
-    margin: 0 auto;           /* Garante centralização horizontal */
-    padding-right: 15px;         /* Remove padding lateral que empurra no desktop */
+    text-align: center; /* Centraliza os textos */
+    margin: 0 auto; /* Garante centralização horizontal */
+    padding-right: 15px; /* Remove padding lateral que empurra no desktop */
   }
 
   .video-left img {
     margin-left: auto;
     margin-right: auto;
-    display: block;           /* Centraliza a logo */
+    display: block; /* Centraliza a logo */
   }
 }
 
@@ -2781,8 +2780,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 430px) {
   .service-area .header-text h1 {
-  font-size: 22px;
-}
+    font-size: 22px;
+  }
 }
 
 .single-service {
@@ -2907,9 +2906,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 430px) {
-  .review-area h1{
-  font-size: 22px;
-}
+  .review-area h1 {
+    font-size: 22px;
+  }
 }
 
 .faq-area {
@@ -2920,8 +2919,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 430px) {
   .faq-area h1 {
-  font-size: 22px;
-}
+    font-size: 22px;
+  }
 }
 
 .faq-left .card {
