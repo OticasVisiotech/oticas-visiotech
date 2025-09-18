@@ -64,10 +64,10 @@
             <ul class="nav-menu">
               <li class="menu-active"><a href="#home">Início</a></li>
               <li><a href="#about">Sobre</a></li>
-              <li><a href="#service">Serviços</a></li>
               <li><a href="#unique">Produtos</a></li>
+              <li><a href="#services">Serviços</a></li>
               <li><a href="#review">Review</a></li>
-              <li><a href="#faq">Faq</a></li>
+              <li><a href="#contact">Contato</a></li>
               <!-- <li class="menu-has-children"><a href="">Pages</a>
 				            <ul>
 				              <li><a href="generic.html">Generic</a></li>
@@ -82,641 +82,571 @@
     </header>
     <!-- #header -->
 
-    <!-- start banner Area -->
-    <section class="banner-area" id="home">
-      <div class="container">
-        <img src="img/logo-hero.png" />
-        <div
-          class="row fullscreen d-flex align-items-center justify-content-center"
-          style="margin-top: -450px"
-        >
-          <div class="banner-content col-lg-10">
-            <h5 class="text-uppercase text-azul-claro">
-              Excelência óptica com
-              <span class="text-white">estilo e confiança</span>
-            </h5>
-            <h1 class="text-white">Transforme o seu olhar</h1>
-            <a href="#unique" class="primary-btn text-uppercase mt-20"
-              >Compre agora</a
-            >
-          </div>
+    <section id="home" class="hero">
+      <!-- Slides -->
+      <div class="slides">
+        <div class="slide active">
+          <img
+            src="/img/bg-header-1.jpg"
+            alt="Óticas Visiotech - Transformando sua visão em estilo e confiança"
+          />
+          <div class="overlay gradient-1"></div>
+        </div>
+        <div class="slide">
+          <img
+            src="/img/bg-header-2.jpg"
+            alt="Óticas Visiotech - Inovação e qualidade em cada lente"
+          />
+          <div class="overlay gradient-2"></div>
+        </div>
+        <div class="slide">
+          <img
+            src="/img/bg-header-3.jpg"
+            alt="Óticas Visiotech - Atendimento especializado para sua família"
+          />
+          <div class="overlay gradient-3"></div>
+        </div>
+      </div>
+
+      <!-- Botões navegação -->
+      <button class="control prev" aria-label="Slide anterior">&#10094;</button>
+      <button class="control next" aria-label="Próximo slide">&#10095;</button>
+
+      <!-- Conteúdo -->
+      <div class="hero-content">
+        <div class="text">
+          <h1 id="hero-title">
+            Transformando sua visão em <span class="highlight">estilo</span>
+            <span class="highlight">confiança</span>
+          </h1>
+          <p id="hero-subtitle">
+            Tecnologia, cuidado humano e design em cada detalhe.
+          </p>
+          <button class="cta">Descubra nossos produtos →</button>
+        </div>
+      </div>
+
+      <!-- Indicadores -->
+      <div class="indicators">
+        <button class="dot active"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
         </div>
       </div>
     </section>
-    <!-- End banner Area -->
 
-    <!-- Start video-sec Area -->
-    <section
-      class="video-sec-area"
-      style="padding-top: 70px; padding-bottom: 70px"
-      id="about"
-    >
-      <div class="container mb-5">
-        <div
-          class="row row-cols-1 row-cols-sm-3 g-4 justify-content-center text-center stats"
-        >
-          <div class="col">
-            <div class="stat-item">
-              <div class="stat-number">10+</div>
-              <div class="stat-text">Anos de experiência</div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="stat-item">
-              <div class="stat-number">10k+</div>
-              <div class="stat-text">Clientes satisfeitos</div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="stat-item">
-              <div class="stat-number">100%</div>
-              <div class="stat-text">Atendimento consultivo</div>
-            </div>
-          </div>
+    <!-- CAROUSEL BRANDS -->
+     <section class="brands-section">
+      <div class="container">
+        <div class="text-center">
+          <h2>Marcas de Prestígio</h2>
+          <p>
+            Trabalhamos com as melhores marcas do mundo para oferecer qualidade
+            e estilo incomparáveis
+          </p>
         </div>
       </div>
 
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-lg-6 mt-5 video-left">
-            <img
-              class="mb-20"
-              src="img/logo-horizontal.png"
-              style="width: 250px; height: auto"
-              alt="logo"
-            />
-            <h6 class="text-dourado">
-              Transformando sua visão em estilo de vida
-            </h6>
-            <h1 class="text-white">
-              Mais do que óculos, entregamos confiança, autenticidade e
-              <br />bem-estar visual.
-            </h1>
-            <p>
-              <span class="text-white"
-                >O cuidado com sua visão começa aqui</span
-              >
-            </p>
-            <p class="text-white">
-              A Visiotech nasce com o propósito de transformar a experiência
-              visual no Brasil, oferecendo soluções ópticas de alta qualidade
-              com atendimento humano, consultivo e orientado a resultados. Mais
-              do que uma ótica, somos uma parceira de confiança na jornada de
-              cuidado com a visão, unindo tecnologia, estilo e saúde visual.<br /><br />
-              <b class="text-dourado"
-                >Nossa identidade une modernidade e proximidade:</b
-              >
-              um olhar que enxerga além das lentes, captando as necessidades e
-              desejos de cada cliente para traduzir em soluções que encantam e
-              geram valor.<br /><br />
-              Siga-nos em nossas redes sociais:
-            </p>
+      <div class="carousel-wrapper">
+        <div class="carousel-track" id="brands-track"></div>
 
-            <!-- <a class="primary-btn" href="#">Get Started now</a> -->
-          </div>
-
-          <!-- Botão Play -->
-          <div
-            class="col-lg-6 video-right justify-content-center align-items-center d-flex"
-          >
-            <div class="overlay overlay-bg"></div>
-            <a class="play-btn mt-5" href="video/video-visiotech.mp4">
-              <img
-                class="img-fluid"
-                src="img/play-icon.png"
-                alt="Play"
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            </a>
-          </div>
-
-          <div
-            class="footer-social d-flex justify-content-center align-items-center mt-30"
-          >
-            <a
-              href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20ver%20o%20cat%C3%A1logo%20de%20produtos,%20por%20favor."
-              aria-label="Whatsapp"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fa-brands fa-whatsapp"></i
-            ></a>
-            <a
-              href="https://www.facebook.com/oticasvisiotech?mibextid=wwXIfr&rdid=lQBtiwp3hPTxFrc5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17B9MFGTJP%2F%3Fmibextid%3DwwXIfr"
-              aria-label="Facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/oticasvisiotech/?igsh=d3owcGsybWZkYXd3&utm_source=qr"
-              aria-label="Instagram"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a
-              href="https://www.tiktok.com/@oticasvisiotech?_t=ZM-8zJc3v1h0JK&_r=1"
-              aria-label="Tiktok"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-tiktok"></i
-            ></a>
-            <!-- <a
-              href="https://www.linkedin.com"
-              aria-label="Linkedin"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="https://www.youtube.com"
-              aria-label="Youtube"
-              target="_blank"
-              rel="noopener noreferrer"
-              ><i class="fab fa-youtube"></i
-            ></a> -->
-          </div>
-        </div>
+        <!-- Gradientes laterais -->
+        <div class="fade-left"></div>
+        <div class="fade-right"></div>
       </div>
     </section>
-    <!-- End video-sec Area -->
 
-    <!-- Start top-course Area -->
-    <section class="top-course-area">
+    <!-- Start inicio -->
+    <section id="about" class="produtos">
       <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="menu-content pb-60 col-lg-10">
-            <div class="title text-center mt-20">
-              <img
-                src="img/logo-top-course.png"
-                style="width: 250px; height: auto"
-              />
-              <h1 class="mb-10">
-                Tudo o que seus olhos precisam em um só lugar
-              </h1>
-              <p>
-                Da correção visual ao estilo, oferecemos soluções completas para
-                você enxergar e viver melhor.
-              </p>
-            </div>
-          </div>
+        <div class="text-center header">
+          <h2 class="title">Nossos Produtos</h2>
+          <p class="subtitle">
+            Descubra nossa linha completa de soluções ópticas, desenvolvidas com
+            tecnologia de ponta e design inovador para atender todas as suas
+            necessidades visuais.
+          </p>
         </div>
-        <div class="row justify-content-center align-items-center">
-          <div class="col-lg-3 course-left">
-            <div class="single-course">
-              <span
-                ><i class="fa-solid fa-glasses" style="font-size: 20px"></i
-              ></span>
-              <a href="#"><h4>Óculos de Grau</h4></a>
+
+        <div class="grid">
+          <!-- Card 1 -->
+          <div class="card">
+            <div class="image-wrapper">
+              <img
+                src="img/img-oculos-grau-2.jpg"
+                alt="Óculos de Grau"
+              />
+              <div class="icon"><i class="fa-solid fa-glasses"></i></div>
+            </div>
+            <div class="content">
+              <h3>Óculos de Grau</h3>
               <p>
-                Armações modernas e lentes de alta qualidade para correção
+                Armações modernas com lentes de alta precisão para correção
                 visual perfeita.
               </p>
             </div>
-            <div class="single-course">
-              <span
-                ><i class="fa-solid fa-sun" style="font-size: 20px"></i
-              ></span>
-              <a href="#"><h4>Óculos de Sol</h4></a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <div class="image-wrapper">
+              <img
+                src="img/oculos-sol.jpg"
+                alt="Óculos de Sol"
+              />
+              <div class="icon"><i class="fa-solid fa-sun"></i></div>
+            </div>
+            <div class="content">
+              <h3>Óculos de Sol</h3>
               <p>
-                Proteção UV completa com estilo e elegância para todas as
-                ocasiões.
+                Proteção UV completa com design sofisticado e materiais premium.
               </p>
             </div>
-            <div class="single-course">
-              <span
-                ><i
-                  class="fa-solid fa-person-running"
-                  style="font-size: 20px"
-                ></i
-              ></span>
-              <a href="#"><h4>Óculos Esportivos</h4></a>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <div class="image-wrapper">
+              <img
+                src="img/img-oculos-esportivo.jpg"
+                alt="Óculos Esportivos"
+              />
+              <div class="icon"><i class="fa-solid fa-medal"></i></div>
+            </div>
+            <div class="content">
+              <h3>Óculos Esportivos</h3>
               <p>
                 Resistência e performance para suas atividades físicas
                 favoritas.
               </p>
             </div>
           </div>
-          <div class="col-lg-6 course-middle">
-            <img
-              class="img-fluid mx-auto d-block"
-              src="img/about-img.png"
-              alt=""
-            />
+
+          <!-- Card 4 -->
+          <div class="card">
+            <div class="image-wrapper">
+              <img
+                src="img/img-lentes-contato.webp"
+                alt="Lentes de contato"
+              />
+              <div class="icon"><i class="fa-solid fa-eye"></i></div>
+            </div>
+            <div class="content">
+              <h3> Lentes de Contato</h3>
+              <p>
+                Liberdade visual com conforto e praticidade no dia a dia.
+              </p>
+            </div>
           </div>
-          <div class="col-lg-3 course-right">
-            <div class="single-course">
-              <span
-                ><i
-                  class="fa-solid fa-eye-low-vision"
-                  style="font-size: 20px"
-                ></i
-              ></span>
-              <a href="#"><h4>Lentes Oftálmicas</h4></a>
+
+          <!-- Card 5 -->
+          <div class="card">
+            <div class="image-wrapper">
+              <img
+                src="img/img-lentes-oftalmicas.jpg"
+                alt="Lentes Oftálmicas"
+              />
+              <div class="icon"><i class="fa-solid fa-eye-low-vision"></i></div>
+            </div>
+            <div class="content">
+              <h3>Lentes Oftálmicas</h3>
               <p>Tecnologia avançada em lentes para máximo conforto visual.</p>
             </div>
-            <div class="single-course">
-              <span
-                ><i class="fa-solid fa-eye" style="font-size: 20px"></i
-              ></span>
-              <a href="#"><h4>Lentes de Contato</h4></a>
-              <p>Liberdade visual com conforto e praticidade no dia a dia.</p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="card">
+            <div class="image-wrapper">
+              <img
+                src="img/img-acessorios.jpg"
+                alt="Acessórios"
+              />
+              <div class="icon"><i class="fa-solid fa-briefcase"></i></div>
             </div>
-            <div class="single-course">
-              <span
-                ><i class="fa-solid fa-bag-shopping" style="font-size: 20px"></i
-              ></span>
-              <a href="#"><h4>Acessórios</h4></a>
+            <div class="content">
+              <h3>Acessórios</h3>
               <p>Estojos, lenços e produtos para cuidado dos seus óculos.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End top-course Area -->
+    <!-- End inicio Area -->
 
-    <!-- Start home-about Area -->
-    <section class="home-about-area">
-      <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-lg-6 no-padding home-about-left">
-            <img
-              class="img-fluid"
-              src="img/home-bg.jpg"
-              alt="Óculos e lentes Visiotech"
-            />
-          </div>
-          <div
-            class="col-lg-6 no-padding home-about-right"
-            style="padding: 30px"
-          >
-            <h1 class="text-white">
-              Veja com Clareza e Estilo: Óculos de Grau e Lentes de Contato
-              Feitos para Você
-            </h1>
-            <div class="pb-20">
-              <span>
-                <ul class="text-dourado lista">
-                  <li>Ampla variedade de armações</li>
-                  <li>Lentes com proteção e tecnologia avançada</li>
-                  <li>Lentes de contato para conforto no dia a dia</li>
-                </ul>
-              </span>
+
+    <!-- PROMOÇÕES -->
+<section id="promocoes" class="promocoes">
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <span class="badge"><i class="fa-solid fa-sparkles"></i> Ofertas Especiais</span>
+      <h2>Promoções <span class="highlight">Ativas</span></h2>
+      <p>Aproveite nossas ofertas exclusivas e encontre o óculos perfeito com condições especiais</p>
+    </div>
+
+    <!-- Cards principais -->
+    <div class="cards">
+      <!-- Lente em Dobro -->
+      <div class="card">
+        <div class="card-img">
+          <img src="img/img-2x1.jpg" alt="Lente em Dobro">
+          <span class="badge-top">2x1</span>
+        </div>
+        <div class="card-body">
+          <h3>Lente em Dobro</h3>
+          <p><strong>Na compra de um par completo</strong><br>Ganhe uma segunda lente gratuitamente</p>
+          <button class="btn">Aproveitar Oferta <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <!-- Troca de Coleção -->
+      <div class="card">
+        <div class="card-img">
+          <img src="img/img-promocao.jpg" alt="Troca de Coleção">
+          <span class="badge-top red">70% OFF</span>
+        </div>
+        <div class="card-body">
+          <h3>Troca de Coleção</h3>
+          <p><strong>Até 70% OFF</strong> em peças selecionadas<br>Renove seu estilo com economia</p>
+          <button class="btn">Ver Produtos <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+      <!-- Novas Coleções -->
+      <div class="card">
+        <div class="card-img">
+          <img src="img/img-visio20.jpg" alt="Novas Coleções">
+          <span class="badge-top green">NOVO</span>
+        </div>
+        <div class="card-body">
+          <h3>Novas Coleções</h3>
+          <p>Cupom <strong class="coupon">VISIO20</strong><br><strong>20% de desconto</strong> nas novidades</p>
+          <button class="btn">Usar Cupom <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Descontos por marca -->
+    <div class="brands">
+      <div class="brands-header">
+        <h3>Descontos por <span class="highlight">Marca</span></h3>
+        <p>Ofertas especiais nas suas marcas favoritas</p>
+      </div>
+
+      <div class="brands-grid">
+        <!-- Premium -->
+        <div class="brand premium">
+  <div class="brand-img">
+    <img src="img/img-50-2.jpg" alt="Premium">
+  </div>
+  <div class="brand-body">
+    <h4><i class="fa-solid fa-star"></i> Marcas Premium</h4>
+    <p>Ray-Ban • Prada • Oakley • Armani</p>
+    <span class="offer">até 50% OFF</span>
+  </div>
+</div>
+
+<div class="brand other">
+  <div class="brand-img">
+    <img src="img/img-70.jpg" alt="Outras Marcas">
+  </div>
+  <div class="brand-body">
+    <h4><i class="fa-solid fa-percent"></i> Outras Marcas</h4>
+    <p>Marcas selecionadas</p>
+    <span class="offer">até 70% OFF</span>
+  </div>
+</div>
+    </div>
+
+    <!-- Condições de pagamento -->
+    <!-- <div class="payment">
+      <div class="payment-header">
+        <div class="icon"><i class="fa-solid fa-credit-card"></i></div>
+        <h3>Condições de <span class="highlight">Pagamento</span></h3>
+        <p>Facilite sua compra com nossas condições especiais</p>
+      </div>
+      <div class="payment-grid">
+        <div class="pay-card">
+          <p>Até R$ 1.000</p>
+          <strong>5x</strong>
+          <small>sem juros</small>
+        </div>
+        <div class="pay-card">
+          <p>R$ 1.000 - R$ 2.000</p>
+          <strong>6x</strong>
+          <small>sem juros</small>
+        </div>
+        <div class="pay-card">
+          <p>Acima de R$ 2.000</p>
+          <strong>10x</strong>
+          <small>sem juros</small>
+        </div>
+        <div class="pay-card highlight-card">
+          <p>À vista</p>
+          <strong>5%</strong>
+          <small>desconto</small>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- CTA -->
+    <!-- <div class="cta">
+      <p>Não perca essas oportunidades únicas!</p>
+      <button class="btn big">Ver Todas as Promoções <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div> -->
+</section>
+
+
+    <!-- =========================
+     Product slider completo
+     ========================= -->
+
+     <section class="unique-feature-area" id="unique">
+  <div class="container">
+    <!-- header -->
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-60 col-lg-10">
+        <div class="title text-center">
+          <img src="img/logo-horizontal.png" style="width:250px;height:auto" alt="" class="pb-20 pt-40"/>
+          <h1 class="mb-10 text-dourado">Nossos Produtos</h1>
+          <p>Soluções completas para sua saúde visual com tecnologia de ponta e design moderno.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- product-slider -->
+    <div class="product-slider-container">
+      <button class="product-slider-btn prev" type="button" aria-label="Anterior">&#10094;</button>
+
+      <div class="product-slider-track-container">
+        <div class="product-slider-track">
+          <!-- Repita/adicione seus cards (exemplos abaixo) -->
+          <div class="single-unique-product">
+            <img class="img-fluid" src="img/o1.jpeg" alt="Pure" />
+            <div class="desc">
+              <h4>Pure</h4>
+              <h6>R$ 700,00</h6>
+              <a class="text-uppercase primary-btn" href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20Pure." target="_blank" rel="noopener noreferrer">Comprar</a>
             </div>
-            <p class="text-white">
-              Na Visiotech você encontra óculos de grau modernos, lentes
-              oftálmicas com proteção especial e lentes de contato que oferecem
-              praticidade sem abrir mão da saúde visual. Tudo para garantir
-              estilo, conforto e qualidade de visão.
-            </p>
-            <a
-              class="text-uppercase primary-btn"
-              href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20ver%20o%20cat%C3%A1logo%20de%20produtos,%20por%20favor."
-              target="_blank"
-              rel="noopener noreferrer"
-              >Conheça nossos produtos</a
-            >
+          </div>
+
+          <div class="single-unique-product">
+            <img class="img-fluid" src="img/o2.jpeg" alt="Salvatore" />
+            <div class="desc">
+              <h4>Salvatore Ferragamo</h4>
+              <h6>R$ 3.100,00</h6>
+              <a class="text-uppercase primary-btn" href="#">Comprar</a>
+            </div>
+          </div>
+
+          <div class="single-unique-product">
+            <img class="img-fluid" src="img/o3.jpg" alt="Carolina" />
+            <div class="desc">
+              <h4>Carolina Herrera HER</h4>
+              <h6>R$ 2.000,00</h6>
+              <a class="text-uppercase primary-btn" href="#">Comprar</a>
+            </div>
+          </div>
+
+          <div class="single-unique-product">
+            <img class="img-fluid" src="img/o4.jpg" alt="Longchamp" />
+            <div class="desc">
+              <h4>Longchamp</h4>
+              <h6>R$ 1.200,00</h6>
+              <a class="text-uppercase primary-btn" href="#">Comprar</a>
+            </div>
+          </div>
+
+          <!-- demais itens (ex.: o5..o12) -->
+          <div class="single-unique-product">
+            <img class="img-fluid" src="img/o5.jpeg" alt="Lacoste" />
+            <div class="desc">
+              <h4>Lacoste</h4>
+              <h6>R$ 800,00</h6>
+              <a class="text-uppercase primary-btn" href="#">Comprar</a>
+            </div>
+          </div>
+
+          <div class="single-unique-product">
+            <img class="img-fluid" src="img/o6.jpg" alt="Carrera" />
+            <div class="desc">
+              <h4>Carrera Ducati Carduc</h4>
+              <h6>R$ 1.050,00</h6>
+              <a class="text-uppercase primary-btn" href="#">Comprar</a>
+            </div>
+          </div>
+
+          <div class="single-unique-product">
+            <img class="img-fluid" src="img/o7.jpg" alt="Calvin Klein" />
+            <div class="desc">
+              <h4>Calvin Klein</h4>
+              <h6>R$ 1.100,00</h6>
+              <a class="text-uppercase primary-btn" href="#">Comprar</a>
+            </div>
+          </div>
+
+          <div class="single-unique-product">
+            <img class="img-fluid" src="img/o8.jpg" alt="HB Presto" />
+            <div class="desc">
+              <h4>HB PRESTO 2.0</h4>
+              <h6>R$ 900,00</h6>
+              <a class="text-uppercase primary-btn" href="#">Comprar</a>
+            </div>
+          </div>
+
+          <!-- adicione mais items conforme necessário -->
+        </div>
+      </div>
+
+      <button class="product-slider-btn next" type="button" aria-label="Próximo">&#10095;</button>
+    </div>
+
+    <!-- footer do bloco -->
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-60 col-lg-10">
+        <div class="title text-center">
+          <h1 class="mb-10 text-white">Gostou do que viu?</h1>
+          <p>Temos mais produtos além desses esperando por você!</p>
+          <a class="text-uppercase primary-btn" href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria..." target="_blank" rel="noopener noreferrer">
+            Fale Conosco <i class="fa-brands fa-whatsapp" style="font-size:20px"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- =========================
+     SERVICES
+     ========================= -->
+    <section id="services" class="visiotech-services-section py-5">
+  <!-- Background elements -->
+  <div class="visiotech-bg-grid-pattern position-absolute top-0 start-0 w-100 h-100"></div>
+  <div class="visiotech-bg-circle"></div>
+  <div class="visiotech-bg-circle-alt"></div>
+
+  <div class="container position-relative">
+    <!-- Section Header -->
+    <div class="text-center mb-5">
+      <div class="visiotech-section-badge d-inline-flex align-items-center gap-2 px-3 py-2 rounded-pill mb-3">
+        <i class="bi bi-eye"></i> Nossos Diferenciais
+      </div>
+      <h2 class="fw-bold mb-3">
+        Por que escolher a <span class="text-dourado">Visiotech</span>?
+      </h2>
+      <p class="lead text-muted mx-auto" style="max-width: 600px;">
+        Qualidade, tecnologia e atendimento especializado para cuidar da sua visão com excelência.
+      </p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="row align-items-center mb-5">
+      <!-- Image -->
+      <div class="col-lg-6 mb-4 mb-lg-0 position-relative">
+        <div class="visiotech-image-wrapper shadow-lg rounded-4 overflow-hidden">
+          <img
+            src="img/differentials.gif"
+            alt="Óticas Visiotech - Atendimento especializado e tecnologia avançada"
+            style="max-height: 400px;"
+          />
+          <div class="visiotech-image-overlay"></div>
+          <div class="visiotech-image-text position-absolute bottom-0 start-0 p-4 text-white">
+            <h3 class="fw-bold mb-2">Excelência em Visão</h3>
+            <p class="mb-0">Tecnologia e cuidado personalizado</p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End home-about Area -->
 
-    <!-- Start service Area -->
-    <section class="service-area" style="margin-bottom: 70px" id="service">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-8 pb-40 header-text">
-            <img
-              src="img/logo-top-course.png"
-              style="width: 250px; height: auto; padding-top: 20px"
-            />
-            <h1>Por que escolher a Visiotech?</h1>
-            <p>
-              Nossos diferenciais fazem toda a diferença na sua experiência
-              visual.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="single-service">
-              <h4>
-                <span><i class="fa-solid fa-heart"></i></span> Atendimento
-                Humano
-              </h4>
-              <p>
-                Cuidado personalizado com foco nas suas necessidades específicas
-                e bem-estar visual.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-service">
-              <h4>
-                <span><i class="fa-solid fa-microchip"></i></span> Tecnologia de
-                Ponta
-              </h4>
-              <p>
-                Lentes e armações com a mais avançada tecnologia para máximo
-                conforto e qualidade.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-service">
-              <h4>
-                <span><i class="fa-solid fa-palette"></i></span> Estilo e Design
-                Moderno
-              </h4>
-              <p>
-                Produtos que combinam funcionalidade com as últimas tendências
-                em moda e design.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-service">
-              <h4>
-                <span><i class="fa-solid fa-shield-halved"></i></span> Confiança
-                e Credibilidade
-              </h4>
-              <p>
-                Anos de experiência e milhares de clientes satisfeitos comprovam
-                nossa excelência.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-service">
-              <h4>
-                <span><i class="fa-solid fa-hand-holding-dollar"></i></span>
-                Preços Justos e Acessíveis
-              </h4>
-              <p>
-                Qualidade premium com condições que cabem no seu bolso,
-                garantindo sempre a melhor experiência para sua visão.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-service">
-              <h4>
-                <span><i class="fa-solid fa-user-doctor"></i></span>
-                Profissionais Especializados
-              </h4>
-              <p>
-                Equipe formada por especialistas preparados para orientar a
-                melhor escolha para sua visão.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End service Area -->
-
-    <!-- Start unique-feature Area -->
-    <section
-      class="unique-feature-area"
-      style="padding-bottom: 70px"
-      id="unique"
-    >
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="menu-content pb-60 col-lg-10">
-            <div class="title text-center">
-              <img
-                src="img/logo-horizontal.png"
-                style="width: 250px; height: auto"
-                alt=""
-                class="pb-20 pt-40"
-              />
-              <h1 class="mb-10 text-dourado">Nossos Produtos</h1>
-              <p>
-                Soluções completas para sua saúde visual com tecnologia de ponta
-                e design moderno.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o1.jpeg" alt="" />
-              <div class="desc">
-                <h4>Pure</h4>
-                <h6>R$ 700,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20Pure."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
+      <!-- Differentials -->
+      <div class="col-lg-6">
+        <div class="row g-4">
+          <div class="col-sm-6" style="padding-bottom: 20px;">
+            <div class="visiotech-card p-4 h-100">
+              <div class="visiotech-icon-box bg-danger-subtle mb-3">
+                <img src="img/logo-differentials.png" alt="">
               </div>
+              <h5 class="fw-bold mb-2">Atendimento Personalizado</h5>
+              <p class="text-muted mb-0">Cuidado individual focado nas suas necessidades específicas.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o2.jpeg" alt="" />
-              <div class="desc">
-                <h4>Salvatore Ferragamo</h4>
-                <h6>R$ 3.100,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20SF323S%20710."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
+          <div class="col-sm-6" style="padding-bottom: 20px;">
+            <div class="visiotech-card p-4 h-100">
+              <div class="visiotech-icon-box bg-primary-subtle mb-3">
+                <img src="img/logo-differentials.png" alt="">
               </div>
+              <h5 class="fw-bold mb-2">Tecnologia Avançada</h5>
+              <p class="text-muted mb-0">Equipamentos modernos e lentes de última geração.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o3.jpg" alt="" />
-              <div class="desc">
-                <h4>Carolina Herrera HER</h4>
-                <h6>R$ 2.000,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20HER%200314/G/S."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
+          <div class="col-sm-6" style="padding-bottom: 20px;">
+            <div class="visiotech-card p-4 h-100">
+              <div class="visiotech-icon-box bg-purple-subtle mb-3">
+                <img src="img/logo-differentials.png" alt="">
               </div>
+              <h5 class="fw-bold mb-2">Design Moderno</h5>
+              <p class="text-muted mb-0">Armações que combinam estilo e funcionalidade.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o4.jpg" alt="" />
-              <div class="desc">
-                <h4>Longchamp</h4>
-                <h6>R$ 1.200,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20LO749S%20320."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
+          <div class="col-sm-6" style="padding-bottom: 20px;">
+            <div class="visiotech-card p-4 h-100">
+              <div class="visiotech-icon-box bg-success-subtle mb-3">
+                <img src="img/logo-differentials.png" alt="">
               </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o5.jpeg" alt="" />
-              <div class="desc">
-                <h4>Lacoste</h4>
-                <h6>R$ 800,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20L6055S%20035."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o6.jpg" alt="" />
-              <div class="desc">
-                <h4>Carrera Ducati Carduc</h4>
-                <h6>R$ 1.050,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20CARRERA%20CARDUC%20047%20CTL."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o7.jpg" alt="" />
-              <div class="desc">
-                <h4>Calvin Klein</h4>
-                <h6>R$ 1.100,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20CK24550%20MAG%20SET%20242."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o8.jpg" alt="" />
-              <div class="desc">
-                <h4>HB PRESTO 2.0</h4>
-                <h6>R$ 900,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20HB%20PRESTO2.0."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o9.jpeg" alt="" />
-              <div class="desc">
-                <h4>Nike Rave</h4>
-                <h6>R$ 900,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20NIKE%20RAVE%20P%20FD1849."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o10.jpeg" alt="" />
-              <div class="desc">
-                <h4>Marchon NYC</h4>
-                <h6>R$ 400,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20MARCHON%20M-8514%20240."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o11.jpeg" alt="" />
-              <div class="desc">
-                <h4>Carrera VICTORY</h4>
-                <h6>R$ 1.050,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20CARRERA%20VICTORY%20C%2010/S%20086UK."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="single-unique-product">
-              <img class="img-fluid" src="img/o12.jpeg" alt="" />
-              <div class="desc">
-                <h4>Nike</h4>
-                <h6>R$ 650,00</h6>
-                <a
-                  class="text-uppercase primary-btn"
-                  href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20comprar%20o%20produto%20NIKE%207280%20034."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Comprar</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row d-flex justify-content-center">
-          <div class="menu-content pb-60 col-lg-10">
-            <div class="title text-center">
-              <h1 class="mb-10 text-white">Gostou do que viu?</h1>
-              <p>Temos mais produtos além desses esperando por você!</p>
-              <a
-                class="text-uppercase primary-btn"
-                href="https://wa.me/5561999443201?text=Ol%C3%A1!%20Gostaria%20de%20ver%20o%20cat%C3%A1logo%20de%20produtos,%20por%20favor."
-                target="_blank"
-                rel="noopener noreferrer"
-                >Fale Conosco
-                <i class="fa-brands fa-whatsapp" style="font-size: 20px"></i
-              ></a>
+              <h5 class="fw-bold mb-2">Confiança Comprovada</h5>
+              <p class="text-muted mb-0">10+ anos de experiência e milhares de clientes satisfeitos.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End unique-feature Area -->
+    </div>
+
+    <!-- Stats -->
+    <div class="visiotech-stats p-4 rounded-4 shadow-sm">
+      <div class="row text-center g-4">
+        <div class="col-sm-4" style="padding: 15px;">
+          <h3 class="fw-bold text-dourado">10+</h3>
+          <p class="fw-semibold mb-0">Anos de Experiência</p>
+        </div>
+        <div class="col-sm-4" style="padding: 15px;">
+          <h3 class="fw-bold text-dourado">10k+</h3>
+          <p class="fw-semibold mb-0">Clientes Satisfeitos</p>
+        </div>
+        <div class="col-sm-4" style="padding: 15px;">
+          <h3 class="fw-bold text-dourado">100%</h3>
+          <p class="fw-semibold mb-0">Garantia de Qualidade</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- ================= GALERIA ================= -->
+<section id="galeria" class="galeria-section">
+  <div class="galeria-container">
+    <div class="galeria-header">
+      <h2 class="galeria-title">Nossa Galeria</h2>
+      <p class="galeria-subtitle">
+        Descubra como nossos óculos transformam o estilo e a confiança de nossos clientes. 
+        Cada par conta uma história única de elegância, proteção e personalidade.
+      </p>
+    </div>
+
+    <div class="galeria-grid" id="galeria-grid">
+      <!-- Itens serão inseridos via JS -->
+    </div>
+  </div>
+</section>
+
 
     <!-- Start review Area -->
     <section class="review-area" style="padding-bottom: 70px" id="review">
@@ -739,8 +669,15 @@
           </div>
         </div>
         <div class="row">
+          <!-- Review 1 -->
           <div class="col-lg-4 col-md-6">
-            <div class="single-review">
+            <div class="single-review text-center">
+              <img
+                src="img/profile1.jpeg"
+                alt="Foto de Ana Paula"
+                class="rounded-circle mb-3"
+                style="width: 50px; height: 50px; object-fit: cover"
+              />
               <h4>Ana Paula</h4>
               <p>
                 Fui muito bem atendida na Visiotech! A equipe foi atenciosa e me
@@ -757,9 +694,16 @@
             </div>
           </div>
 
+          <!-- Review 2 -->
           <div class="col-lg-4 col-md-6">
-            <div class="single-review">
-              <h4>João Mendes</h4>
+            <div class="single-review text-center">
+              <img
+                src="img/profile2.jpeg"
+                alt="Foto de João Mendes"
+                class="rounded-circle mb-3"
+                style="width: 50px; height: 50px; object-fit: cover"
+              />
+              <h4>Gabriela Yamaguti</h4>
               <p>
                 Ótima experiência! Consegui minhas lentes de contato com
                 praticidade e segurança. O atendimento é humano e cuidadoso, me
@@ -775,9 +719,16 @@
             </div>
           </div>
 
+          <!-- Review 3 -->
           <div class="col-lg-4 col-md-6">
-            <div class="single-review">
-              <h4>Mariana Souza</h4>
+            <div class="single-review text-center">
+              <img
+                src="img/profile3.jpg"
+                alt="Foto de Mariana Souza"
+                class="rounded-circle mb-3"
+                style="width: 50px; height: 50px; object-fit: cover"
+              />
+              <h4>Victor Souza</h4>
               <p>
                 Adorei a variedade de armações modernas! Consegui unir estilo e
                 conforto em um só óculos. Além disso, os preços são justos e
@@ -788,13 +739,20 @@
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
+                <span class="fa fa-star checked"></span>
               </div>
             </div>
           </div>
 
+          <!-- Review 4 -->
           <div class="col-lg-4 col-md-6">
-            <div class="single-review">
+            <div class="single-review text-center">
+              <img
+                src="img/profile4.jpg"
+                alt="Foto de Carlos Henrique"
+                class="rounded-circle mb-3"
+                style="width: 50px; height: 50px; object-fit: cover"
+              />
               <h4>Carlos Henrique</h4>
               <p>
                 Precisei trocar meus óculos de grau e a Visiotech foi incrível.
@@ -811,9 +769,16 @@
             </div>
           </div>
 
+          <!-- Review 5 -->
           <div class="col-lg-4 col-md-6">
-            <div class="single-review">
-              <h4>Fernanda Marques</h4>
+            <div class="single-review text-center">
+              <img
+                src="img/profile5.jpg"
+                alt="Foto de Fernanda Marques"
+                class="rounded-circle mb-3"
+                style="width: 50px; height: 50px; object-fit: cover"
+              />
+              <h4>Leonardo Marques</h4>
               <p>
                 Sempre tive dificuldade em encontrar óculos esportivos
                 confortáveis. Na Visiotech encontrei o modelo perfeito que
@@ -829,8 +794,15 @@
             </div>
           </div>
 
+          <!-- Review 6 -->
           <div class="col-lg-4 col-md-6">
-            <div class="single-review">
+            <div class="single-review text-center">
+              <img
+                src="img/profile6.jpeg"
+                alt="Foto de Rodrigo Alves"
+                class="rounded-circle mb-3"
+                style="width: 50px; height: 50px; object-fit: cover"
+              />
               <h4>Rodrigo Alves</h4>
               <p>
                 Gostei muito da experiência na Visiotech. O ambiente é
@@ -851,223 +823,267 @@
     </section>
     <!-- End review Area -->
 
-    <!-- Start faq Area -->
-    <section class="faq-area section-gap textwh" id="faq">
+    <!-- Start Cta area -->
+
+    <section class="cta-section">
       <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="review-content pb-60 col-lg-10">
-            <div class="title text-center">
-              <h1 class="mb-10 text-white">Dúvidas Frequentes</h1>
-              <p class="text-dourado">Estamos aqui para ajudar no que puder!</p>
-            </div>
-          </div>
+        <!-- Ícone -->
+        <div class="cta-icon">
+          <i class="fas fa-comment-dots"></i>
         </div>
-        <div class="row justify-content-start text-white">
-          <div class="col-lg-6 faq-left">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link"
-                      data-toggle="collapse"
-                      data-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      Vocês possuem lojas físicas?
-                    </button>
-                  </h5>
-                </div>
 
-                <div
-                  id="collapseOne"
-                  class="collapse show"
-                  aria-labelledby="headingOne"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    Sim! A Óticas Visiotech conta com diversas lojas físicas
-                    para melhor atender você. Estamos presentes nos seguintes
-                    endereços: 113 Sul, 306 Norte, 210 Norte, SMDB Lago Sul,
-                    Gilberto Salomão e CNC 3 Taguatinga.
-                  </div>
-                </div>
-              </div>
+        <!-- Título -->
+        <h2 class="fw-bold mb-4">Quer saber mais ou agendar uma visita?</h2>
 
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      Quais marcas de óculos vocês trabalham?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseTwo"
-                  class="collapse"
-                  aria-labelledby="headingTwo"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    Na Óticas Visiotech você encontra uma ampla variedade de
-                    marcas renomadas, que unem estilo, conforto e qualidade.
-                    Trabalhamos com opções internacionais e nacionais como Nike,
-                    Calvin Klein (CK), Lacoste, DKNY, Nautica, Pure, Airlock,
-                    Marchon NYCX, Reserva, Longchamp, Ferragamo, Ray-Ban,
-                    Emporio Armani, Prada, Tommy Hilfiger, Carrera, Carolina
-                    Herrera (CH), BOSS, entre outras.
-                  </div>
-                </div>
-              </div>
+        <!-- Descrição -->
+        <p class="lead mb-5">
+          Fale conosco pelo WhatsApp e tenha um atendimento rápido e
+          personalizado! Nossa equipe está pronta para esclarecer suas dúvidas e
+          ajudar você a encontrar a solução ideal.
+        </p>
 
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                      Os óculos de sol possuem proteção contra raios UV?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseThree"
-                  class="collapse"
-                  aria-labelledby="headingThree"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    Sim, todos os nossos óculos de sol oferecem 100% de proteção
-                    contra os raios UVA e UVB.
-                  </div>
-                </div>
-              </div>
+        <!-- Botões -->
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-center gap-3"
+        >
+          <a
+            href="https://wa.me/seunumero"
+            target="_blank"
+            class="btn btn-lg btn-accent d-flex align-items-center justify-content-center"
+          >
+            Fale conosco <i class="fas fa-arrow-right ms-2"></i>
+          </a>
+          <a href="#localizacao" class="btn btn-lg btn-outline-light">
+            Ver localização
+          </a>
+        </div>
 
-              <div class="card">
-                <div class="card-header" id="headingFour">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapseFour"
-                      aria-expanded="false"
-                      aria-controls="collapseFour"
-                    >
-                      Posso encontrar lentes de contato na Visiotech?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseFour"
-                  class="collapse"
-                  aria-labelledby="headingFour"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    Sim, oferecemos lentes de contato das principais marcas do
-                    mercado, sempre com foco no conforto, na saúde e na
-                    segurança da sua visão.
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header" id="headingFive">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapseFive"
-                      aria-expanded="false"
-                      aria-controls="collapseFive"
-                    >
-                      Vocês têm opções de óculos para crianças?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseFive"
-                  class="collapse"
-                  aria-labelledby="headingFive"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    Sim, temos uma linha completa de óculos para crianças, com
-                    modelos seguros e confortáveis.
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header" id="headingSix">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapseSix"
-                      aria-expanded="false"
-                      aria-controls="collapseSix"
-                    >
-                      A Visiotech oferece óculos para prática esportiva?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseSix"
-                  class="collapse"
-                  aria-labelledby="headingSix"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    Sim, temos modelos específicos para esportes, com
-                    resistência e segurança para todas as atividades.
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header" id="headingSeven">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapseSeven"
-                      aria-expanded="false"
-                      aria-controls="collapseSeven"
-                    >
-                      É possível trocar meus óculos se eu não gostar?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseSeven"
-                  class="collapse"
-                  aria-labelledby="headingSeven"
-                  data-parent="#accordion"
-                >
-                  <div class="card-body">
-                    Sim, temos política de troca dentro do prazo determinado,
-                    garantindo sua satisfação.
-                  </div>
-                </div>
-              </div>
-            </div>
+        <!-- Indicadores -->
+        <div
+          class="trust-indicators d-flex flex-column flex-sm-row justify-content-center gap-4 mt-5"
+        >
+          <div class="trust-item">
+            <div class="trust-dot"></div>
+            <span>Atendimento rápido</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-dot"></div>
+            <span>Suporte personalizado</span>
+          </div>
+          <div class="trust-item">
+            <div class="trust-dot"></div>
+            <span>Resposta imediata</span>
           </div>
         </div>
       </div>
     </section>
-    <!-- End faq Area -->
+    <!-- End Cta area -->
+
+    <!-- Start Contact area -->
+    <section id="contact">
+      <div class="container">
+        <!-- Cabeçalho -->
+        <div class="text-center mb-5">
+          <h2 class="fw-bold mb-3">Entre em Contato</h2>
+          <p class="lead text-muted">
+            Visite nossa loja física e conheça de perto nossa equipe
+            especializada e produtos de qualidade.
+          </p>
+        </div>
+
+        <div class="row g-5 align-items-start">
+          <!-- Imagem da loja -->
+          <div class="col-lg-6">
+            <div class="store-img">
+              <img
+                src="img/local-oticas-visiotech.jpeg"
+                alt="Fachada da Óticas Visiotech - Loja física moderna com vitrine elegante"
+              />
+              <div class="store-overlay"></div>
+              <div class="store-info">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="fas fa-store me-2"></i>
+                  <span class="fw-semibold">Nossa Loja</span>
+                </div>
+                <p class="small opacity-75">
+                  Ambiente moderno e acolhedor para sua melhor experiência
+                </p>
+              </div>
+            </div>
+
+            <div class="row mt-4 g-3">
+              <div class="col-6">
+                <div class="contact-card p-3 text-center border border-primary">
+                  <div
+                    class="icon-circle bg-primary bg-opacity-10 text-primary mx-auto mb-2"
+                  >
+                    <i class="fas fa-store"></i>
+                  </div>
+                  <p class="fw-medium mb-1">Ambiente Moderno</p>
+                  <small class="text-muted"
+                    >Espaço confortável e elegante</small
+                  >
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="contact-card p-3 text-center border border-success">
+                  <div
+                    class="icon-circle bg-success bg-opacity-10 text-success mx-auto mb-2"
+                  >
+                    <i class="fas fa-phone"></i>
+                  </div>
+                  <p class="fw-medium mb-1">Atendimento Especializado</p>
+                  <small class="text-muted">Equipe qualificada</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Informações de contato -->
+          <div class="col-lg-6">
+            <div
+              class="contact-card border-start border-4 border-primary mb-4 p-4"
+            >
+              <div class="d-flex gap-3">
+                <div
+                  class="icon-circle bg-primary bg-opacity-10 text-primary flex-shrink-0"
+                >
+                  <i class="fas fa-map-pin"></i>
+                </div>
+                <div>
+                  <h5 class="fw-semibold mb-2">Nossa Localização</h5>
+                  <p class="text-muted mb-3">
+                    Rua das Óticas, 123 - Centro<br />
+                    São Paulo, SP - CEP 01234-567
+                  </p>
+                  <a
+                    href="https://maps.google.com"
+                    target="_blank"
+                    class="btn btn-sm btn-outline-primary"
+                    >Ver no Mapa</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3 mb-4">
+              <div class="col-sm-6">
+                <div class="contact-card p-4 h-100">
+                  <div class="d-flex align-items-center mb-3">
+                    <div
+                      class="icon-circle bg-success bg-opacity-10 text-success me-2"
+                    >
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    <h6 class="fw-semibold mb-0">Telefone</h6>
+                  </div>
+                  <p>
+                    <a
+                      href="tel:+5511999999999"
+                      class="text-decoration-none text-muted fw-medium"
+                      >(11) 99999-9999</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="contact-card p-4 h-100">
+                  <div class="d-flex align-items-center mb-3">
+                    <div
+                      class="icon-circle bg-success bg-opacity-10 text-success me-2"
+                    >
+                      <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h6 class="fw-semibold mb-0">WhatsApp</h6>
+                  </div>
+                  <p>
+                    <a
+                      href="https://wa.me/5511999999999"
+                      target="_blank"
+                      class="text-decoration-none text-muted fw-medium"
+                      >(11) 99999-9999</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-card p-4 mb-4">
+              <div class="d-flex gap-3">
+                <div
+                  class="icon-circle bg-info bg-opacity-10 text-info flex-shrink-0"
+                >
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <h6 class="fw-semibold mb-2">E-mail</h6>
+                  <a
+                    href="mailto:contato@visiotech.com.br"
+                    class="text-decoration-none text-muted"
+                    >contato@visiotech.com.br</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-card p-4">
+              <div class="d-flex gap-3">
+                <div
+                  class="icon-circle bg-primary bg-opacity-10 text-primary flex-shrink-0"
+                >
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div>
+                  <h6 class="fw-semibold mb-3">Horário de Funcionamento</h6>
+                  <div class="text-muted small">
+                    <div class="d-flex justify-content-between">
+                      <span>Segunda a Sexta:</span>
+                      <strong class="text-dark">9h às 18h</strong>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <span>Sábado:</span>
+                      <strong class="text-dark">9h às 14h</strong>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <span>Domingo:</span>
+                      <strong class="text-danger">Fechado</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mapa -->
+        <div class="mt-5">
+          <div class="text-center mb-4">
+            <h3 class="fw-bold mb-2">Encontre-nos Facilmente</h3>
+            <p class="text-muted">
+              Localização privilegiada no centro da cidade
+            </p>
+          </div>
+          <div
+            class="map-placeholder d-flex flex-column justify-content-center align-items-center"
+          >
+            <div class="map-gradient"></div>
+            <i class="fas fa-map-pin fa-3x text-primary mb-3"></i>
+            <p class="fw-semibold mb-2">Mapa Interativo</p>
+            <p class="text-muted mb-3">
+              Rua das Óticas, 123 - Centro, São Paulo, SP
+            </p>
+            <a
+              href="https://maps.google.com"
+              target="_blank"
+              class="btn btn-primary"
+              >Abrir no Google Maps</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Area -->
+
     <!-- start footer Area -->
     <!-- Footer -->
     <footer class="footer-area text-white pt-5">
@@ -1224,6 +1240,9 @@
     <script src="js/parallax.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/video.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/products.js"></script>
   </body>
 </html>
