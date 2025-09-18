@@ -3391,7 +3391,7 @@ h6 {
    PROMOÇÕES SECTION
 ========================= */
 .promocoes {
-  padding: 80px 20px;
+  padding: 0px 20px 20px;
   background: linear-gradient(135deg, #fdfdfd, #f3f3f3);
 }
 .promocoes .container {
@@ -3405,8 +3405,8 @@ h6 {
 .promocoes .badge {
   display: inline-block;
   padding: 6px 14px;
-  border: 1px solid #c62828;
-  color: #c62828;
+  border: 1px solid #AD841F;
+  color: #AD841F;
   border-radius: 20px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -3416,7 +3416,7 @@ h6 {
   margin-bottom: 10px;
 }
 .promocoes .highlight {
-  color: #c62828;
+  color: #AD841F;
 }
 .promocoes p {
   color: #555;
@@ -3439,7 +3439,7 @@ h6 {
 }
 .promocoes .card:hover {
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-  border-color: #c62828;
+  border-color: #AD841F;
 }
 .promocoes .card-img {
   position: relative;
@@ -3474,7 +3474,7 @@ h6 {
 .promocoes .card-body h3 {
   font-size: 22px;
   margin-bottom: 10px;
-  color: #c62828;
+  color: #AD841F;
 }
 .promocoes .card-body p {
   margin-bottom: 20px;
@@ -3482,7 +3482,7 @@ h6 {
 }
 .promocoes .btn {
   padding: 12px 20px;
-  background: #c62828;
+  background: #AD841F;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -3536,7 +3536,7 @@ h6 {
   font-size: 20px;
   margin-bottom: 8px;
 }
-.promocoes .brand-body h4 i { margin-right: 8px; color: #c62828; }
+.promocoes .brand-body h4 i { margin-right: 8px; color: #AD841F; }
 .promocoes .brand-body .offer {
   display: block;
   font-size: 22px;
