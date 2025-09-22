@@ -3841,8 +3841,8 @@ h6 {
   inset: 0;
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0.2),
+    rgba(173, 132, 31  , 0.8),
+    rgba(173, 132, 31  , 0.6),
     transparent
   );
   opacity: 0;
