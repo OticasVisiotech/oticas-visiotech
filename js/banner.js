@@ -9,13 +9,14 @@ const slideData = [
     subtitle: "Tecnologia, cuidado humano e design em cada detalhe.",
   },
   {
-    title: `Inovação e qualidade em <span class="highlight">cada</span> <span class="highlight">lente</span>`,
-    subtitle: "Descubra a diferença que a tecnologia avançada faz na sua visão.",
-  },
-  {
     title: `Atendimento especializado para <span class="highlight">sua</span> <span class="highlight">família</span>`,
     subtitle: "Cuidamos da saúde visual de quem você mais ama com carinho e expertise.",
   },
+  {
+    title: `Inovação e qualidade em <span class="highlight">cada</span> <span class="highlight">lente</span>`,
+    subtitle: "Descubra a diferença que a tecnologia avançada faz na sua visão.",
+  },
+  
 ];
 
 let current = 0;
