@@ -2487,6 +2487,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 1rem;
 }
 
+@media (max-width: 430px) {
+  .hero-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+}
+
 .hero-content .highlight {
   color: var(--visiotech-gold);
 }
@@ -2497,13 +2505,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 430px) {
+  .hero-content p {
+  font-size: 0.8rem;
+}
+}
+
 .hero-content img {
   margin-top: -150px;
 }
 
 @media (max-width: 430px) {
   .hero-content img {
-  margin-top: -50px;
+  margin-top: -80px;
 }
 }
 
@@ -2517,6 +2531,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
   cursor: pointer;
   transition: transform 0.3s, background 0.3s;
+}
+
+@media (max-width: 430px) {
+  .cta {
+  padding: 0.6rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+}
 }
 
 .cta:hover {
