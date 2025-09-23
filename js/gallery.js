@@ -3,7 +3,7 @@ const galleryImages = [
   { id: 1, src: "img/img-nike-masc.jpg", alt: "Homem elegante usando óculos de sol esportivo", description: "Óculos de sol esportivo com design moderno e sofisticado", size: "large" },
   { id: 2, src: "img/img-nike-2.jpg", alt: "Óculos de grau Nike", description: "Óculos de grau contemporâneo", size: "medium" },
   { id: 3, src: "img/img-nike-3.jpg", alt: "Atleta usando óculos esportivos", description: "Óculos esportivos de alta performance", size: "medium" },
-  { id: 4, src: "img/img-nike-fem.jpg", alt: "Mulher praticando atletismo", description: "Garantia de qualidade com óculos esportivos", size: "large" },
+  { id: 4, src: "img/img-nike-fem.jpg", alt: "Mulher praticando atletismo e usando óculos de sol esportivo", description: "Garantia de qualidade com óculos esportivos", size: "large" },
   { id: 5, src: "img/img-lacoste.jpg", alt: "Óculos de Sol Lacoste", description: "Marcas de luxo", size: "medium" },
   { id: 6, src: "img/img-lacoste-2.jpg", alt: "Modelo usando óculos de sol designer", description: "Design exclusivo com assinatura de grandes marcas", size: "medium" },
   { id: 7, src: "img/img-ck.jpg", alt: "Modelos usando óculos CK", description: "Estilo e conforto em marca renomada", size: "large" },
