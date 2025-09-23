@@ -1,5 +1,4 @@
-// Scroll Smooth from button "Compre Agora"
-
+// Scroll suave
 function smoothScroll(target, duration = 1000) {
   const element = document.querySelector(target);
   if (!element) return;
@@ -17,7 +16,7 @@ function smoothScroll(target, duration = 1000) {
     if (timeElapsed < duration) requestAnimationFrame(animation);
   }
 
-  // Função de easing (easeInOutCubic para ficar bem suave)
+  // easeInOutCubic
   function ease(t, b, c, d) {
     t /= d / 2;
     if (t < 1) return (c / 2) * t * t * t + b;
@@ -28,13 +27,19 @@ function smoothScroll(target, duration = 1000) {
   requestAnimationFrame(animation);
 }
 
-// Aplica nos links de âncora
+// Scroll em âncoras <a>
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
-    smoothScroll(this.getAttribute("href"), 1200); // 1200ms = 1.2s
+    smoothScroll(this.getAttribute("href"), 1200);
   });
 });
+
+// Scroll no botão
+document.getElementById("scroll-btn").addEventListener("click", () => {
+  smoothScroll("#unique", 1200);
+});
+
 
 
 
