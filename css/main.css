@@ -2284,7 +2284,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .p1-gradient-bg,
 .primary-btn,
 .home-about-area .home-about-right .primary-btn,
-.single-unique-product:hover .primary-btn,
+/* .single-unique-product:hover .primary-btn, */
 .faq-left .card-header,
 .single-footer-widget .click-btn,
 .generic-banner {
@@ -2941,7 +2941,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .product-slider-track {
   display: flex;
-  gap: 25px; /* espaço entre cards */
+  gap: 20px; /* espaço entre cards */
   transition: transform 0.5s ease;
   will-change: transform;
   align-items: stretch;
@@ -2963,29 +2963,43 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-unique-product img {
   width: 100%;
-  height: 200px;
+  height: auto;
   object-fit: cover;
   padding: 0;
 }
 .single-unique-product .desc {
-  background: #f9f9ff;
+  background: #dfdfdf;
   padding: 15px 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 .single-unique-product h6 {
-  color: #235ee7;
+  color: #041e42;
   margin: 8px 0;
 }
+
+.single-unique-product h4 {
+  color: #ad841f;
+  margin: 8px 0;
+}
+
 .single-unique-product .primary-btn {
-  background: #222;
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 6px 12px;
+  background: #ad841f;
+  color: #ffffff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 0 12px;
   text-decoration: none;
   display: inline-block;
-  margin-top: 8px;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+.single-unique-product .primary-btn:hover {
+  transition: 0.3s;
+  background-color: #041e42;
+  color: #fff;
 }
 
 /* botões */
