@@ -2481,6 +2481,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 800px;
 }
 
+.hero-content .header-socials{
+  justify-content: center;
+  padding-top: 20px;
+}
+
 .hero-content h1 {
   font-size: 3rem;
   font-weight: bold;
