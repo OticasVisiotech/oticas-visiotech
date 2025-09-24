@@ -12,29 +12,32 @@ const brands = [
   { name: "Carolina Herrera", logo: "img/logos/logo-carolina-herrera.png" },
   { name: "Longchamp", logo: "img/logos/logo-longchamp.png" },
   { name: "BOSS", logo: "img/logos/logo-boss.png" },
-  { name: "Salvatore Ferragamo", logo: "img/logos/logo-salvatore-ferragamo.png" },
+  {
+    name: "Salvatore Ferragamo",
+    logo: "img/logos/logo-salvatore-ferragamo.png",
+  },
   { name: "Ray-Ban", logo: "img/logos/logo-ray-ban.png" },
   { name: "Prada", logo: "img/logos/logo-prada.png" },
   { name: "Emporio Armani", logo: "img/logos/logo-emporio-armani.png" },
-]
+];
 
-const track = document.getElementById("brands-track")
+const track = document.getElementById("brands-track");
 
 // Duplicar as marcas
-const duplicatedBrands = [...brands, ...brands]
+const duplicatedBrands = [...brands, ...brands];
 
 duplicatedBrands.forEach((brand) => {
-  const card = document.createElement("div")
-  card.className = "brand-card"
+  const card = document.createElement("div");
+  card.className = "brand-card";
   card.innerHTML = `
     <div class="brand-card-inner">
       <img src="${brand.logo}" alt="Logo ${brand.name}" />
     </div>
-  `
-  track.appendChild(card)
-})
+  `;
+  track.appendChild(card);
+});
 
 // === Ajustar animação para o tamanho real da primeira metade ===
-const originalWidth = track.scrollWidth / 2
+const originalWidth = track.scrollWidth / 2;
 
-track.style.setProperty("--scroll-width", `${originalWidth}px`)
+track.style.setProperty("--scroll-width", `${originalWidth}px`);
