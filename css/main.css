@@ -2965,6 +2965,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 100%;
   height: auto;
   object-fit: cover;
+  object-position: center;
   padding: 0;
 }
 .single-unique-product .desc {
