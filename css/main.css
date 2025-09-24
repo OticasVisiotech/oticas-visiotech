@@ -4213,7 +4213,7 @@ h6 {
 .vtx-materials {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 24px;
+  gap: 30px;
   margin-bottom: 64px;
   cursor: pointer;
 }
@@ -4227,7 +4227,7 @@ h6 {
 .vtx-material-card {
   background: linear-gradient(to right, #0f172a, #1e293b, #0f172a);
   color: #fff;
-  padding: 10px;
+  padding: 18px;
   border-radius: 16px;
   text-align: center;
   transition: box-shadow 0.3s;
