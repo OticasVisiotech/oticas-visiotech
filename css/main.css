@@ -2948,6 +2948,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 10px;
 }
 
+/* 
+.promocoes .card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-color: #ad841f;
+}
+.promocoes .card-img {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+.promocoes .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.promocoes .card:hover img {
+  transform: scale(1.05);
+}
+*/
+
 /* card sizing: 4 por linha no desktop (levando em conta 3 gaps de 20px) */
 .single-unique-product {
   background: #fff;
@@ -2959,6 +2980,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
+  border: 3px solid #eee;
+  transition: 0.3s;
+}
+
+.single-unique-product:hover {
+  box-shadow: 0 6px 20px #0000001a;
+  border-color: #ad841f;
 }
 
 .single-unique-product img {
@@ -2967,7 +2995,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   object-fit: cover;
   object-position: center;
   padding: 0;
+  transition: 0.3s;
 }
+
+.single-unique-product:hover img {
+  transform: scale(1.05);
+}
+
+
 .single-unique-product .desc {
   background: #dfdfdf;
   padding: 15px 10px;
