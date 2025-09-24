@@ -2948,27 +2948,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 10px;
 }
 
-/* 
-.promocoes .card:hover {
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  border-color: #ad841f;
-}
-.promocoes .card-img {
-  position: relative;
-  height: 200px;
-  overflow: hidden;
-}
-.promocoes .card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: 0.3s;
-}
-.promocoes .card:hover img {
-  transform: scale(1.05);
-}
-*/
-
 /* card sizing: 4 por linha no desktop (levando em conta 3 gaps de 20px) */
 .single-unique-product {
   background: #fff;
@@ -4155,4 +4134,166 @@ h6 {
   object-fit: contain;
   /* filter: grayscale(100%); */
   transition: filter 0.3s ease;
+}
+
+/* Escopo geral */
+.vtx-section {
+  position: relative;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom right, #f0f9ff, #4a6c8f, #054688 );
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  color: #1e293b;
+}
+
+/* Fundo decorativo */
+.vtx-bg-decor {
+  position: absolute;
+  inset: 0;
+  opacity: 0.05;
+}
+.vtx-bg-circle {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+}
+.vtx-circle-1 {
+  top: 80px;
+  left: 40px;
+  width: 130px;
+  height: 130px;
+  background: #ad841f;
+}
+.vtx-circle-2 {
+  bottom: 80px;
+  right: 40px;
+  width: 160px;
+  height: 160px;
+  background: #ad841f;
+}
+
+/* Container */
+.vtx-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Header */
+.vtx-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.vtx-header-badge {
+  display: inline-block;
+  background: rgba(173, 132, 31, 0.3);
+  color: #1B365D;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.vtx-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.vtx-title span {
+  color: #ad841f;
+}
+.vtx-subtitle {
+  font-size: 18px;
+  color: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Materials */
+.vtx-materials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin-bottom: 64px;
+  cursor: pointer;
+}
+
+.vtx-materials h3 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ad841f;
+}
+
+.vtx-material-card {
+  background: linear-gradient(to right, #0f172a, #1e293b, #0f172a);
+  color: #fff;
+  padding: 10px;
+  border-radius: 16px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+  transition: 0.3s;
+}
+
+.vtx-material-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+  
+}
+
+
+/* Philosophy */
+.vtx-philosophy {
+  margin-top: 64px;
+  background: linear-gradient(to right, #0f172a, #1e293b, #0f172a);
+  color: #fff;
+  padding: 40px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.vtx-philosophy h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ad841f;
+}
+.vtx-philosophy p {
+  color: #cbd5e1;
+  max-width: 800px;
+  margin: 0 auto 16px;
+  line-height: 1.6;
+}
+.vtx-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+}
+.vtx-stats strong {
+  display: block;
+  font-size: 26px;
+  color: #ad841f;
+}
+.vtx-stats span {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+.vtx-btn-large {
+  background: #ad841f;
+  color: #fff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.vtx-btn-large:hover {
+  color: #fff;
+}
+
+
+.vtx-btn-large:hover {
+  background: #1B365D;
 }
