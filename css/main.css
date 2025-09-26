@@ -3882,6 +3882,7 @@ h6 {
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
 }
 .galeria-item:hover {
   transform: scale(1.02);
