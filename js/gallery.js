@@ -2,9 +2,9 @@
 const galleryImages = [
   {
     id: 1,
-    src: "img/img-nike-masc.jpg",
-    alt: "Homem elegante usando óculos de sol esportivo",
-    description: "Óculos de sol esportivo com design moderno e sofisticado",
+    src: "img/img-nike-fem.jpg",
+    alt: "Mulher praticando atletismo e usando óculos de sol esportivo",
+    description: "Garantia de qualidade com óculos esportivos", 
     size: "large",
   },
 
@@ -26,9 +26,9 @@ const galleryImages = [
 
   {
     id: 4,
-    src: "img/img-nike-fem.jpg",
-    alt: "Mulher praticando atletismo e usando óculos de sol esportivo",
-    description: "Garantia de qualidade com óculos esportivos",
+    src: "img/img-marcia-2.jpeg",
+    alt: "Modelo utilizando óculos de grau moderno",
+    description: "Óculos de grau com design moderno e sofisticado",
     size: "large",
   },
 
@@ -42,16 +42,16 @@ const galleryImages = [
 
   {
     id: 6,
-    src: "img/img-lacoste-2.jpg",
-    alt: "Modelo usando óculos de sol designer",
+    src: "img/img-thiago-4.jpeg",
+    alt: "Modelo usando óculos de grau estiloso",
     description: "Design exclusivo com assinatura de grandes marcas",
     size: "medium",
   },
 
   {
     id: 7,
-    src: "img/img-ck.jpg",
-    alt: "Modelos usando óculos CK",
+    src: "img/img-thiago-2.jpeg",
+    alt: "Homem elegante usando óculos de sol",
     description: "Estilo e conforto em marca renomada",
     size: "large",
   },
@@ -67,23 +67,23 @@ const galleryImages = [
   {
     id: 9,
     src: "img/img-marcia-1.jpeg",
-    alt: "Jovem usando óculos modernos",
+    alt: "Mulher elegante usando óculos modernos",
     description: "Tendências atuais em armações jovens",
     size: "medium",
   },
 
   {
     id: 10,
-    src: "img/img-salvatore.jpg",
-    alt: "Família usando óculos Salvatore Ferragamo",
-    description: "Soluções para toda a família",
+    src: "img/img-marcia-5.jpeg",
+    alt: "Modelo usando óculos Carrera",
+    description: "Soluções com estilo e confiança",
     size: "large",
   },
 
   {
     id: 11,
     src: "img/img-thiago-1.jpeg",
-    alt: "Empresário usando óculos de luxo",
+    alt: "Modelo usando óculos de luxo",
     description: "Sofisticação e elegância em cada detalhe",
     size: "medium",
   },
