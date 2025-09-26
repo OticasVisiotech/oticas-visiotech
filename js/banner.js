@@ -5,7 +5,7 @@ const subtitle = document.getElementById("hero-subtitle");
 
 const slideData = [
   {
-    title: `Transformando sua visão em <span class="highlight">estilo</span> <span class="highlight"> e confiança</span>`,
+    title: `Ver o mundo com um <span class="highlight">novo</span> <span class="highlight"> olhar</span>`,
     subtitle: "Tecnologia, cuidado humano e design em cada detalhe.",
   },
   {
