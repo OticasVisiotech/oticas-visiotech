@@ -2,9 +2,9 @@
 const galleryImages = [
   {
     id: 1,
-    src: "img/img-nike-fem.jpg",
-    alt: "Mulher praticando atletismo e usando óculos de sol esportivo",
-    description: "Garantia de qualidade com óculos esportivos", 
+    src: "img/img-ferragamo.png",
+    alt: "Modelo utilizando óculos Ferragamo",
+    description: "Garantia de qualidade com óculos de luxo", 
     size: "large",
   },
 
@@ -18,9 +18,9 @@ const galleryImages = [
 
   {
     id: 3,
-    src: "img/img-nike-3.jpg",
-    alt: "Atleta usando óculos esportivos",
-    description: "Óculos esportivos de alta performance",
+    src: "img/img-ck.png",
+    alt: "Modelo usando óculos Calvin Klein",
+    description: "Óculos de alta qualidade",
     size: "medium",
   },
 
@@ -34,9 +34,9 @@ const galleryImages = [
 
   {
     id: 5,
-    src: "img/img-lacoste.jpg",
-    alt: "Óculos de Sol Lacoste",
-    description: "Marcas de luxo",
+    src: "img/img-pure-2.png",
+    alt: "Modelo usando Óculos Pure",
+    description: "Marcas mais procuradas",
     size: "medium",
   },
 
@@ -90,8 +90,8 @@ const galleryImages = [
 
   {
     id: 12,
-    src: "img/img-dkny-2.jpg",
-    alt: "Óculos DKNY vintage retrô",
+    src: "img/img-marchon.png",
+    alt: "Modelo usando óculos Marchon",
     description: "Clássicos atemporais que nunca saem de moda",
     size: "medium",
   },
